@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="lk.javainstitute.ecosprout.AdminFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_admin" />
+
+    <fragment
+        android:id="@+id/nav_productmanagement"
+        android:name="lk.javainstitute.ecosprout.ui.productManagement.ProductManagementFragment"
+        android:label="Product Management"
+        tools:layout="@layout/fragment_productmanagement" />
+
+    <fragment
+        android:id="@+id/nav_usermanagement"
+        android:name="lk.javainstitute.ecosprout.ui.userManagement.UserManagementFragment"
+        android:label="User Management"
+        tools:layout="@layout/fragment_usermanagement" />
+    <fragment
+        android:id="@+id/nav_ordermanagement"
+        android:name="lk.javainstitute.ecosprout.OrderManagementFragment"
+        android:label="Order Management"
+        tools:layout="@layout/fragment_order_management" />
+</navigation>

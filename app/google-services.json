@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "381983822063",
+    "project_id": "ecosprout-83fc1",
+    "storage_bucket": "ecosprout-83fc1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381983822063:android:962122fbfe618ed3588b1a",
+        "android_client_info": {
+          "package_name": "lk.javainstitute.ecosprout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD52Wmnnrm2iWQgrNrOH7yMPL8AQ6V7xnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
