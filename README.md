@@ -41,7 +41,7 @@ Fellow devs, if you’ve worked on similar projects or have tips on Firebase bes
 
 ** Go to AndroidManifest.xml and enter your google cloud api key.
 
-** Go to cartFragment and enter your merchent id in initiatePayment method.
+** Go to CartFragment and enter your merchent id in initiatePayment method.
 
 ** Enter your whatsapp number in 83rd line in ContactUsActivity.java file.
 
