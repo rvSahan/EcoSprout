@@ -68,7 +68,7 @@ public class ContactUsActivity extends AppCompatActivity {
         ImageButton call = findViewById(R.id.imageButton);
         call.setOnClickListener(view -> {
             Intent i = new Intent(Intent.ACTION_DIAL);
-            Uri u = Uri.parse("tel:0774059874");
+            Uri u = Uri.parse("tel:0774059875");
             i.setData(u);
             startActivity(i);
         });
@@ -80,7 +80,7 @@ public class ContactUsActivity extends AppCompatActivity {
             if (editText.getText().toString().isEmpty()) {
                 editText.setError("Enter Message");
             } else {
-                sendMessageToWhatsApp("+94774059874", editText.getText().toString());
+                sendMessageToWhatsApp("Enter your whatsapp number", editText.getText().toString());
             }
         });
     }
