@@ -48,7 +48,7 @@ public class ContactUsActivity extends AppCompatActivity {
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 100;
     private GoogleMap googleMap;
     private SupportMapFragment supportMapFragment;
-    private LatLng ecoSproutLocation = new LatLng(7.147053802142851, 80.09096026589727);
+    private LatLng ecoSproutLocation = new LatLng(6.9802728697938, 79.8639107130015);
     private FusedLocationProviderClient fusedLocationClient;
 
     @Override
